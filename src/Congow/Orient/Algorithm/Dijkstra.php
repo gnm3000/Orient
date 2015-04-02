@@ -97,7 +97,7 @@ class Dijkstra implements AlgorithmInterface
         $path   = array();
         $vertex = $this->getEndingVertex();
 
-        while ($vertex->getId() != $this->getStartingVertex()->getId()) {
+        while ($vertex && $vertex->getId() != $this->getStartingVertex()->getId()) {
             $path[] = $vertex;
             $vertex = $vertex->getPotentialFrom();
         }
