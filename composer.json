@@ -1,5 +1,5 @@
 {
-    "name": "gnm3000/orient",
+    "name": "congow/orient",
     "type": "library",
     "description": "A set of PHP libraries in order to use OrientDB from PHP.",
     "keywords": ["orientdb"],
