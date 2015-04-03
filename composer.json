@@ -1,5 +1,5 @@
 {
-    "name": "congow/orient",
+    "name": "gnm3000/orient",
     "type": "library",
     "description": "A set of PHP libraries in order to use OrientDB from PHP.",
     "keywords": ["orientdb"],
@@ -18,7 +18,7 @@
     ],
     "autoload": {
         "psr-0": {
-            "Congow\\Orient": "src/"
+            "Gnm3000\\Orient": "src/"
         }
     },
     "require": {
